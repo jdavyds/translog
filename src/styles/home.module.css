@@ -219,8 +219,8 @@
     border-radius: 50%;
 }
 .foundation .logo {
-    width: 300px;
-    height: 100px;
+    width: 50%;
+    height: 80px;
 }
 .foundation div nav {
     width: 60%;
@@ -230,14 +230,14 @@
     align-items: center;
 }
 .foundation div nav p {
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 0;
     color: gray;
 }
 .foundation div nav button {
-    font-size: 18px;
-    width: 150px;
-    height: 50px;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
     border: none;
     outline: none;
     background: #db1013;
@@ -249,6 +249,7 @@
 }
 .foundation img:last-of-type {
     width: 30%;
+    height: 400px;
 }
 /* CLIENTS */
 .clients {
