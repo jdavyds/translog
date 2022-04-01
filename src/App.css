@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Merriweather', serif;
 }
 header {
     width: 100%;
-    padding: 0 150px;
+    padding: 0 120px;
     display: flex;
     align-items: center;
+    font-size: 18px;
 }
 header .logo {
     display: flex;
@@ -25,9 +27,9 @@ header .navs a {
     color: #101010;
     padding: 10px;
 }
-header .navs a.active {
+/* header .navs a.active {
     border-bottom: 3px solid #C91619;
-}
+} */
 footer {
     color: rgb(16, 16, 16, 0.8);
     background: #F9F9F9;

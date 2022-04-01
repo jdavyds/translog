@@ -7,11 +7,19 @@ import excellent from './../assets/excellent 1.png';
 import logo from './../assets/logo2.png'
 import about1 from './../assets/33 (2) 1.png';
 import about2 from './../assets/45 2.png';
+import about3 from './../assets/Group 7.png';
+import about4 from './../assets/Group 8.png';
+import about5 from './../assets/Ellipse 31.png';
 import focus2 from './../assets/44 1.png';
 import focus3 from './../assets/40 1.png';
 import focus4 from './../assets/37 1.png';
+import focus5 from './../assets/Frame 7.png';
+import focus6 from './../assets/Group 5.png';
+import focus7 from './../assets/Group 6.png';
+import focus8 from './../assets/Group 2.png';
 import foundation1 from './../assets/image 71.png';
 import foundation2 from './../assets/Group 71.png';
+import foundationRing from './../assets/Ellipse 94.png';
 import npd from './../assets/npd.png';
 import nnpc from './../assets/nnpc.png';
 import oando from './../assets/oando.png';
@@ -46,7 +54,7 @@ export default function Home() {
                 <div>
                     <img src={about1} alt="" />
                     <nav>
-                        <h3>About The  Company</h3>
+                        <h3>About The Company</h3>
                         <p>TRANSLOG Energy is a fast-growing petroleum haulage service provider with expertise in facilitating large-scale transport services for products such as Aviation fuel (Jet-A1), Premium Motor Spirit (PMS), Automotive Gas Oil (AGO), as well as Dual-purpose/Household Kerosenes across Nigeria and the West African sub-region prospectively.</p>
                         <button>Read More</button>
                     </nav>
@@ -55,6 +63,9 @@ export default function Home() {
                     <p> Amidst numerous oil-transportation challenges most importantly spillage/pollution and security, our company, TRANSLOG Energy strategically positions itself to execute petroleum logistics and haulage services, guaranteeing multi-dimensional safety; for the product and the environment. </p>
                     <img src={about2} alt="" />
                 </div>
+                <img src={about4} className={style.abr} alt="" />
+                <img src={about3} className={style.abl} alt="" />
+                <img src={about5} className={style.abe} alt="" />
         </section>
         <section className={style.focus}>
             <h1>TRANSLOG BUSINESS FOCUS</h1>
@@ -92,20 +103,29 @@ export default function Home() {
                         <p><img src={checked} className={style.tick} alt="" /> (carriage Vessels)</p>
                 </nav>
             </div>
+            <img src={focus5} className={style.tc} alt="" />
+            <img src={focus6} className={style.tr} alt="" />
+            <img src={focus7} className={style.cl} alt="" />
+            <img src={focus8} className={style.br} alt="" />
         </section>
         <section className={style.maps}>
         <section className={style.foundation}>
             <h1>TRANSLOG FOUNDATION</h1>
             <span>A light in the tunnel</span>
             <div>
-                <img src={foundation1} className={style.kids} alt="" />
+                <div className={style.kids}>
+                    <img src={foundation1}  alt="" />
+                    <img src={foundationRing} alt="" />
+                </div>
                 <nav>
                     <img src={logo} className={style.logo} alt="" />
                     <p>At the heart of translog foundation objectives, lies an unwavering commitment to promoting good corporate citizenship across the globe.</p> 
                     <p>This is achieved through Sahara Foundation – the vehicle for the Group’s Personal and Corporate Social Responsibility (PCSR initiatives. The activities of Sahara Foundation are aimed at empowering the communities where we operate in a sustainable, transparent and efficient manner.</p>
                     <button>Learn More</button>
                 </nav>
-                <img src={foundation2} alt="" />
+                <div className={style.circle}>
+                    <img src={foundation2}  alt={style.circle} />
+                </div>
             </div>
         </section>
         <section className={style.clients}>
@@ -142,7 +162,9 @@ export default function Home() {
                     <button type="submit">Schedule</button>
                 </form>
             </div>
-            <img src={invest} alt="" />
+            <div className={style.investImg}>
+                <img src={invest} alt="" />
+            </div>
         </section>
         </section>
         <section className={style.letter}>

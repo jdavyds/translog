@@ -74,15 +74,17 @@
     width: 100%;
     min-height: 700px;
     margin: 100px 0;
-    padding: 0 150px;
+    padding: 0 120px;
     color: white;
     line-height: 1.6em;
-    
+    position: relative;
 }
 .about div {
+    padding: 0 40px;
     display: flex;
     width: 100%;
     position: relative;
+    z-index: 33333;
 }
 .about div:first-of-type {
     margin: 30px 0;
@@ -91,9 +93,9 @@
 .about div:first-of-type img {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 300px;
-    height:  400px;
+    left: 10%;
+    width: 400px;
+    height:  450px;
     border-radius: 10px;
     transform: translateY(-30%);
 }
@@ -132,41 +134,62 @@
 }
 .about div:last-of-type img {
     position: absolute;
-    top: -70px;
+    top: -90px;
     right: 100px;
-    width: 300px;
-    height: 400px;
+    min-width: 400px;
+    height: 450px;
     border-radius: 10px;
+}
+.abr {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1111;
+}
+.abl {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1111;
+}
+.abe {
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    z-index: 1111;
 }
 /* FOCUS */
 .focus {
     background: #F9F9F9;
-    padding: 50px 0 100px 0;
+    padding: 50px 170px 100px 170px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .focus h1 {
-    font-size: 48px;
-    margin-bottom: 60px;
+    font-size: 40px;
+    margin-bottom: 80px;
 }
 .focus div {
+    z-index: 111;
     display: flex;
-    justify-content: space-evenly;
-    height: 320px;
+    justify-content: space-around;
+    height: 350px;
     width: 100%;
     margin: 10px;
 }
 .focus .focusImg {
-    width: 400px;
-    height: 400px;
+    min-width: 500px;
+    height: 430px;
     border-radius: 10px;
-    transform: translateY(-40px);
+    transform: translateY(-55px);
 }
 .focus .tick {
     height: 15px;
     width: 15px;
+    margin: 0 10px;
 }
 .focus div nav {
     width: 400px;
@@ -181,6 +204,27 @@
 .focus div nav p {
     font-size: 20px;
     margin: 5px 0;
+}
+.tc {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    opacity: 0.8;
+}
+.br {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.tr {
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+.cl {
+    position: absolute;
+    top: 30%;
+    left: 0;
 }
 /* FOUNDATION */
 .maps {
@@ -216,11 +260,23 @@
 .foundation .kids {
     width: 30%;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.foundation .kids img {
     border-radius: 50%;
+    z-index: 222;
+}
+.foundation .kids img:last-of-type {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }
 .foundation .logo {
     width: 200px;
-    height: 100px;
+    height: 70px;
 }
 .foundation div nav {
     width: 60%;
@@ -231,11 +287,12 @@
 }
 .foundation div nav p {
     font-size: 18px;
-    margin: 10px 0;
+    width: 90%;
+    margin: 5px 0;
     color: gray;
 }
 .foundation div nav button {
-    font-size: 16px;
+    font-size: 18px;
     width: 120px;
     height: 40px;
     border: none;
@@ -245,11 +302,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px auto 10px 0;
+    margin: 10px auto 10px 35px;
 }
-.foundation img:last-of-type {
+.foundation .circle {
     width: 30%;
-    height: 400px;
+    height: 350px;
 }
 /* CLIENTS */
 .clients {
@@ -258,10 +315,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 .clients h1 {
     font-size: 40px;
-    margin: 30px 0;
+    margin: 10px 0;
     color: #db1013;
 }
 .clients nav {
@@ -273,27 +331,33 @@
 /* INVEST */
 .invest {
     display: flex;
-    padding: 0 150px;
+    padding: 0 120px;
+    margin-bottom: 30px;
+    height: 100%;
 }
-.invest div {
+.invest div:first-of-type {
+    width: 50%;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
 .invest div h2 {
     font-size: 40px;
-    margin: 30px 0;
+    width: 80%;
+    margin: 30px auto 10px;
 }
 .invest div p {
     width: 80%;
+    margin: auto;
     margin-bottom: 20px;
     font-size: 18px;
-    line-height: 1.2em;
+    line-height: 1.5em;
 }
 .invest form {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    margin: 20px 0;
+    width: 80%;
+    margin: 20px auto;
 }
 .invest form label {
     margin: 10px 0;
@@ -315,17 +379,25 @@
     justify-content: center;
     align-items: center;
 }
+.invest .investImg {
+    height: fit-content;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .invest img {
-    height: 95%;
-    margin: auto 0;
+    height: 100%;
+    margin: auto;
 }
 .letter {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 100px;
-    transform: translateY(-100px);
+    margin: 0 auto 60px;
+    transform: translateY(-80px);
     height: 250px;
     width: 50%;
     border-radius: 30px;
@@ -345,6 +417,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 30px;
 }
 .letter label {
     z-index: 222;
