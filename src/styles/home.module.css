@@ -94,13 +94,13 @@
     position: absolute;
     top: 0;
     left: 10%;
-    width: 400px;
-    height:  450px;
+    width: 300px;
+    height:  400px;
     border-radius: 10px;
     transform: translateY(-30%);
 }
 .about div:first-of-type p {
-    font-size: 20px;
+    font-size: 18px;
 }
 .about div nav {
     display: flex;
@@ -128,16 +128,16 @@
     justify-content: flex-start;
 }
 .about div:last-of-type p {
-    font-size: 20px;
-    margin: 40px auto 0 100px;
+    font-size: 18px;
+    margin: 40px auto 0 30px;
     width: 500px;
 }
 .about div:last-of-type img {
     position: absolute;
     top: -90px;
     right: 100px;
-    min-width: 400px;
-    height: 450px;
+    min-width: 300px;
+    height: 400px;
     border-radius: 10px;
 }
 .abr {
@@ -145,18 +145,21 @@
     bottom: 0;
     right: 0;
     z-index: 1111;
+    opacity: 0.8;
 }
 .abl {
     position: absolute;
     bottom: 0;
     left: 0;
     z-index: 1111;
+    opacity: 0.8;
 }
 .abe {
     position: absolute;
     bottom: 40%;
     left: 0;
     z-index: 1111;
+    opacity: 0.8;
 }
 /* FOCUS */
 .focus {
@@ -169,19 +172,19 @@
     position: relative;
 }
 .focus h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 80px;
 }
 .focus div {
     z-index: 111;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 350px;
     width: 100%;
     margin: 10px;
 }
 .focus .focusImg {
-    min-width: 500px;
+    min-width: 300px;
     height: 430px;
     border-radius: 10px;
     transform: translateY(-55px);
@@ -198,7 +201,7 @@
     justify-content: center;
 }
 .focus div nav h3 {
-    font-size: 27px;
+    font-size: 24px;
     margin: 20px 0;
 }
 .focus div nav p {
@@ -244,7 +247,7 @@
     line-height: 1.6em;
 }
 .foundation h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin: 60px 0 10px;
 }
 .foundation span {
