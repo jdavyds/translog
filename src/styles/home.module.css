@@ -262,12 +262,13 @@
 }
 .foundation .kids {
     width: 25%;
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: center;
     position: relative;
 }
 .foundation .kids .kid {
+    object-fit: fill;
     border-radius: 50% 0 50% 50%;
     z-index: 222;
     height: 100%;
@@ -282,7 +283,7 @@
 .foundation .kids .fdot {
     position: absolute;
     top: 0;
-    right: 10px;
+    right: 5px;
     margin-top: -30px;
 }
 .foundation .logo {
@@ -291,7 +292,7 @@
     margin: 0 auto;
 }
 .foundation div nav {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -318,6 +319,10 @@
 .foundation .circle {
     width: 25%;
     height: 300px;
+    background: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* CLIENTS */
 .clients {
