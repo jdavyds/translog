@@ -35,7 +35,7 @@ export default function Home() {
         <section className={style.intro}>
             <img src={intro} alt="" className={style.introImg}/>
             <section>
-                <p>At TRANSLOG we provide efficient livelihood improvement <br /> technologies</p>
+                <p>At TRANSLOG we provide Efficient Livelihood Improvement <br /> Technologies</p>
                 <div>
                     <nav>
                         <img src={acct} alt="" />
