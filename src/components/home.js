@@ -17,6 +17,7 @@ import focus5 from './../assets/Frame 7.png';
 import focus6 from './../assets/Group 5.png';
 import focus7 from './../assets/Group 6.png';
 import focus8 from './../assets/Group 2.png';
+import focus9 from './../assets/13 (1) (1) 1.png';
 import foundation1 from './../assets/image 71.png';
 import foundation2 from './../assets/Group 71.png';
 import foundationRing from './../assets/Ellipse 94.png';
@@ -26,6 +27,7 @@ import oando from './../assets/oando.png';
 import total from './../assets/total.png';
 import chevron from './../assets/chevron.png';
 import invest from './../assets/invest.png';
+import letter from './../assets/Ellipse 1.png';
 import checked from './../assets/checked.png';
 export default function Home() {
   return (
@@ -77,7 +79,7 @@ export default function Home() {
                         <p><img src={checked} className={style.tick} alt="" /> Mechanical Repair Services</p>
                         <p><img src={checked} className={style.tick} alt="" /> Mack Auto-parts Sales</p>
                 </nav>
-                <img src={about2} className={style.focusImg} alt="" />
+                <img src={focus9} className={style.focusImg} alt="" />
             </div>
             <div>
                 <img src={focus2} className={style.focusImg} alt="" />
@@ -141,7 +143,7 @@ export default function Home() {
         <section className={style.invest}>
             <div>
                 <h2>INVEST WITH US</h2>
-                <p>We welcome valuable collaborative engagements with  substantial tangible benefits to the parties thereto. Deploy your truck under our supervision for effective management and enjoy stress-free Return-on-investment.you can schedule a pre-operational  inspection of your truck(s) for full assessment and commence documentation process with us at our own time. Our Partners constitute essential part of our business ecosystem and are fully represented in our value system. You too can have a taste of the pie ! Talk to our staff to schedule a meeting.</p>
+                <p>We welcome valuable collaborative engagements with  substantial tangible benefits to the parties thereto. <br /> Deploy your truck under our supervision for effective management and enjoy stress-free Return-on-investment.you can schedule a pre-operational  inspection of your truck(s) for full assessment and commence documentation process with us at our own time. Our Partners constitute essential part of our business ecosystem and are fully represented in our value system. You too can have a taste of the pie ! Talk to our staff to schedule a meeting.</p>
                 <form action="" method="post">
                     <label htmlFor="">
                         <span>Name</span>
@@ -173,6 +175,7 @@ export default function Home() {
                 <input type="email" />
                 <button type="submit">Subscribe</button>
             </label>
+            <img src={letter} alt="" />
         </section>
     </div>
   )
