@@ -21,6 +21,7 @@ import focus9 from './../assets/13 (1) (1) 1.png';
 import foundation1 from './../assets/image 71.png';
 import foundation2 from './../assets/Group 71.png';
 import foundationRing from './../assets/Ellipse 94.png';
+import dots from './../assets/Dot.png';
 import npd from './../assets/npd.png';
 import nnpc from './../assets/nnpc.png';
 import oando from './../assets/oando.png';
@@ -116,8 +117,9 @@ export default function Home() {
             <span>A light in the tunnel</span>
             <div>
                 <div className={style.kids}>
-                    <img src={foundation1}  alt="" />
-                    <img src={foundationRing} alt="" />
+                    <img src={foundation1} className={style.kid}  alt="" />
+                    <img src={dots} className={style.fdot} alt="" />
+                    <img src={foundationRing} className={style.ring} alt="" />
                 </div>
                 <nav>
                     <img src={logo} className={style.logo} alt="" />

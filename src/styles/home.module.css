@@ -41,7 +41,7 @@
     z-index: 222;
     font-size: 22px;
     word-spacing: 5px;
-    width: 60%;
+    width: 70%;
     line-height: 1.5;
     text-align: center;
 }
@@ -155,6 +155,8 @@
     left: 0;
     z-index: 1111;
     opacity: 0.8;
+    width: 300px;
+    height: 300px;
 }
 /* FOCUS */
 .focus {
@@ -259,21 +261,29 @@
     align-items: center;
 }
 .foundation .kids {
-    width: 27%;
+    width: 25%;
     height: 300px;
     display: flex;
     justify-content: center;
     position: relative;
 }
-.foundation .kids img {
+.foundation .kids .kid {
     border-radius: 50% 0 50% 50%;
     z-index: 222;
+    height: 100%;
+    width: 100%;
 }
-.foundation .kids img:last-of-type {
+.foundation .kids .ring {
     position: absolute;
     bottom: 0;
     left: 0;
     z-index: 1;
+}
+.foundation .kids .fdot {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin-top: -30px;
 }
 .foundation .logo {
     width: 200px;
@@ -289,7 +299,7 @@
     font-size: 18px;
     width: 100%;
     margin: 10px 0;
-    padding: 0 10px;
+    padding: 0 20px;
     color: gray;
 }
 .foundation div nav button {
@@ -303,10 +313,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px auto 0 10pxz;
+    margin: 10px auto 0 20px;
 }
 .foundation .circle {
-    width: 27%;
+    width: 25%;
     height: 300px;
 }
 /* CLIENTS */
@@ -337,7 +347,6 @@
     height: 100%;
 }
 .invest div:first-of-type {
-    background: yellow;
     width: 60%;
     margin: auto;
     display: flex;
@@ -352,9 +361,9 @@
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     color: #656565;
-    line-height: 1.7em;
+    line-height: 1.5em;
 }
 .invest form {
     display: flex;
@@ -372,6 +381,8 @@
     height: 50px;
     margin: 10px 0;
     width: 80%;
+    border: 1px solid grey;
+    outline: none;
 }
 .invest form button {
     width: 150px;
