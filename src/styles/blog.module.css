@@ -37,7 +37,7 @@
     color: #5c5656;
 }
 .blog aside {
-    width: 30%;
+    width: 35%;
     padding: 20px;
     background: #F9F9F9;
     height: fit-content;
@@ -52,7 +52,7 @@
     color: #db1013;
 }
 .blog aside a p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     padding: 10px;
     color: #5c5656;
