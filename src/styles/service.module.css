@@ -1,0 +1,45 @@
+.headbg {
+    width: 100%;
+}
+.headbg img {
+    width: 100%;
+}
+.service {
+    width: 100%;
+    padding: 30px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service nav {
+    width: 30%;
+    min-height: 350px;
+    height: fit-content;
+    background: #FCFAFA;
+    margin: 20px;
+    padding: 20px;
+}
+.service nav figure {
+    background: #F2E8E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.service nav span img {
+    height: 100%;
+    width: 100%;
+}
+
+.service nav h4 {
+    color: #101010;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.service nav p {
+    color: #656565;
+    line-height: 1.6em;
+    margin: 10px 0;
+}

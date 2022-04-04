@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather Sans', sans-serif;
 }
 header {
     width: 100%;
@@ -27,10 +26,11 @@ header .navs a {
     color: #101010;
     padding: 10px;
 }
-/* header .navs a.active {
+header .navs a.active {
     border-bottom: 3px solid #C91619;
-} */
+}
 footer {
+    border-radius: 60px 60px 0 0;
     color: rgb(16, 16, 16, 0.8);
     background: #F9F9F9;
     display: flex;

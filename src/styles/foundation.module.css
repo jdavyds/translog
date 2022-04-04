@@ -1,0 +1,90 @@
+.headbg {
+    width: 100%;
+}
+.headbg img {
+    width: 100%;
+}
+.fpost {
+    position: relative;
+    display: flex;
+    margin: 50px 0;
+    padding: 0 120px;
+    line-height: 1.5;
+}
+.fpost img {
+    z-index: 222;
+
+}
+.fpost a {
+    text-decoration: none;
+    padding: 0 100px;
+}
+.fpost a h3 {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #5c5656;
+}
+.fpost a p {
+    font-size: 18px;
+    color: #5c5656;
+    margin: 10px 0;
+}
+.gpost {
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 120px;
+}
+.gpost h2 {
+    font-size: 25px;
+    color: #5c5656;
+}
+.gpost div {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.gpost div a {
+    text-decoration: none;
+    width: 30%;
+    background: #F9F9F9;
+}
+.gpost div a img {
+    width: 100%;
+}
+.gpost div a h3 {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #db1013;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+.gpost div a p {
+    font-size: 18px;
+    color: #5c5656;
+    padding: 20px;
+}
+.page {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.page button {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    font-size: 18px;
+    border: 1px solid grey;
+    outline: none;
+    background: white;
+}
+.page button:first-of-type {
+    background: #F9F9F9;
+}
+.dot {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

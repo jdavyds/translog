@@ -9,14 +9,14 @@ export default function Header() {
         </nav>
         <nav className='navs'>
             <NavLink to='/'>HOME</NavLink>
-            <NavLink to='/'>ABOUT</NavLink>
-            <NavLink to='/'>SERVICE</NavLink>
-            <NavLink to='/'>GALLERY</NavLink>
-            <NavLink to='/'>FAQ</NavLink>
-            <NavLink to='/'>BLOG</NavLink>
-            <NavLink to='/'>FOUNDATION</NavLink>
-            <NavLink to='/'>CONTACT</NavLink>
-            <NavLink to='/'>CAREERS</NavLink>
+            <NavLink to='/about'>ABOUT</NavLink>
+            <NavLink to='/service'>SERVICE</NavLink>
+            <NavLink to='/gallery'>GALLERY</NavLink>
+            <NavLink to='/faq'>FAQ</NavLink>
+            <NavLink to='/blog'>BLOG</NavLink>
+            <NavLink to='/foundation'>FOUNDATION</NavLink>
+            <NavLink to='/contact'>CONTACT</NavLink>
+            <NavLink to='/career'>CAREERS</NavLink>
         </nav>
     </header>
   )

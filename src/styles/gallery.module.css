@@ -1,0 +1,16 @@
+.headbg {
+    width: 100%;
+}
+.headbg img {
+    width: 100%;
+}
+.gallery {
+    padding: 30px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery img {
+    width: 31%;
+    margin: 20px 0;
+}
