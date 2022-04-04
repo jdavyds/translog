@@ -7,7 +7,7 @@ import f2 from './../assets/foundation2.png';
 import f3 from './../assets/foundation3.png';
 import f4 from './../assets/foundation4.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import dots from './../assets/dots.png'
 
 export default function Foundation() {
@@ -45,12 +45,12 @@ export default function Foundation() {
         </div>
       </section>
       <section className={style.page}>
-        <button><FontAwesomeIcon icon={ faArrowLeft } /></button>
+        <button><FontAwesomeIcon icon={ faChevronLeft } /></button>
         <button>1</button>
         <button>2</button>
         <button>3</button>
         <button>4</button>
-        <button><FontAwesomeIcon icon={ faArrowRight } /></button>
+        <button><FontAwesomeIcon icon={ faChevronRight } /></button>
       </section>
     </div>
   )

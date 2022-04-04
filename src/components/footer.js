@@ -16,11 +16,11 @@ export default function Footer() {
         <nav>
             <b>Links</b>
             <Link to='/'>HOME</Link>
-            <Link to='/'>ABOUT</Link>
-            <Link to='/'>SERVICE</Link>
-            <Link to='/'>GALLERY</Link>
-            <Link to='/'>FAQ</Link>
-            <Link to='/'>BLOG</Link>
+            <Link to='/about'>ABOUT</Link>
+            <Link to='/services'>SERVICE</Link>
+            <Link to='/gallery'>GALLERY</Link>
+            <Link to='/faq'>FAQ</Link>
+            <Link to='/blog'>BLOG</Link>
         </nav>
         <div>
           <p><FontAwesomeIcon className='icons' icon={faLocationDot} /> <span> Benin-Agbor Expressway, By Precious Wealth Petrol Station, Ekhor-Niro, Benin City, Edo State.</span> </p>

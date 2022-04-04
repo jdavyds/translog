@@ -13,6 +13,7 @@ import Foundation from './components/foundation';
 import Career from './components/career';
 import Worries from './components/worries';
 import Committed from './components/committed';
+import Career2 from './components/career2';
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,7 @@ function App() {
         <Route path="/career" element={<Career/>} />
         <Route path="/Worries-over-potential-$150-billion-losses-by-African-oil-producers" element={<Worries/>} />
         <Route path="/commited-to-promoting-good-corporate-citizenship-across-the-globe" element={<Committed/>} />
+        <Route path="/career-history" element={<Career2/>} />
       </Routes>
       <Footer/>
     </div>
