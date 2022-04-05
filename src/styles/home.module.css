@@ -63,6 +63,55 @@
     height: 60px;
     margin: 20px;
 }
+@media only screen and (max-width: 800px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .intro .introImg {
+        position: relative;
+        z-index: -1;
+        height: 200px;
+    }
+    .intro section {
+        color: white;
+        background: #c52f32;
+        width: 90%;
+        min-height: 250px;
+        height: fit-content;
+        padding: 20px 10px;
+        margin: -30px 0 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+    }
+    .intro section p {
+        font-size: 18px;
+        word-spacing: 0px;
+        width: 100%;
+        line-height: 1.5;
+        text-align: left;
+    }
+    .intro section div {
+        width: 100%;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: flex-start;
+    }
+    .intro section div nav {
+        align-items: flex-start;
+    }
+    .intro section div nav img {
+        width: 50px;
+        height: 50px;
+        margin: 20px 0;
+    }
+    .intro section div nav span {
+        font-size: 16px;
+    }
+}
 /* ABOUT */
 .about {
     background: url(./../assets/Rectangle.png);
@@ -90,7 +139,7 @@
 .about div:first-of-type {
     justify-content: space-between;
 }
-.about div:first-of-type img {
+.about div:first-of-type .abnf {
     width: 300px;
     height:  400px;
     border-radius: 10px;
@@ -157,6 +206,70 @@
     opacity: 0.8;
     width: 300px;
     height: 300px;
+}
+.abnr {
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .about {
+        height: fit-content;
+        margin: 100px 0;
+        padding: 40px 20px;
+        line-height: 1.5em;
+    }
+    .about div {
+        width: 100%;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .about div:first-of-type {
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .about .abnf {
+        display: none;
+    }
+    .about .abnr {
+        display: block;
+        width: 100%;
+        height:  300px;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+    .about div:first-of-type p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .about div nav h3 {
+        margin: 30px 0;
+    }
+    .about div nav {
+        width: 100%;
+    }
+    .about div nav button {
+        width: 100px;
+    }
+    .about div:last-of-type  {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        transform: none;
+    }
+    .about div:last-of-type p {
+        font-size: 16px;
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 0;
+    }
+    .about div:last-of-type img {
+        min-width: 100%;
+        height: 300px;
+        transform: none;
+    }
+    .abr, .abl, .abe {
+        display: none;
+    }
 }
 /* FOCUS */
 .focus {
@@ -230,12 +343,72 @@
     top: 30%;
     left: 0;
 }
+@media only screen and (max-width: 800px) {
+    .focus {
+        padding: 20px;
+    }
+    .focus h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+    .focus div {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
+        margin: 0;
+    }
+    .focus div:nth-of-type(2n) {
+        flex-direction: column;
+    }
+    .focus .focusImg {
+        min-width: unset;
+        width: 100%;
+        height: 300px;
+        border-radius: 40px 0 40px 40px;
+        transform: none;
+    }
+    .focus .tick {
+        height: 15px;
+        width: 15px;
+        margin: 0 10px;
+    }
+    .focus div nav {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .focus div nav h3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .focus div nav p {
+        font-size: 16px;
+    }
+    .tc, .cl {
+        display: none;
+    }
+    .br {
+        position: absolute;
+        bottom: 10%;
+        right: 0;
+    }
+    .tr {
+        position: absolute;
+        top: 8%;
+        right: 0;
+    }
+}
 /* FOUNDATION */
 .maps {
-    background: url(./../assets/map.png);
+    background: url(./../assets/worldmap.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 350% 100%;
+    background-size: 100% 100%;
     padding-bottom: 100px;
 }
 .foundation {
@@ -304,25 +477,87 @@
     color: gray;
 }
 .foundation div nav button {
-    font-size: 18px;
-    width: 120px;
-    height: 40px;
-    border: none;
-    outline: none;
-    background: #db1013;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px auto 0 20px;
+    display: none;
 }
 .foundation .circle {
     width: 25%;
     height: 300px;
-    background: yellowgreen;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.logor {
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .maps {
+        background-position: center;
+        background-repeat: repeat-y;
+        background-size: contain;
+        padding-bottom: 20px;
+    }
+    .foundation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        line-height: 1.5em;
+    }
+    .foundation h1 {
+        text-align: center;
+        font-size: 24px;
+        margin: 20px 0 10px;
+    }
+    .foundation div {
+        width: 100%;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foundation .kids {
+        width: 95%;
+        height: 280px;
+    }
+    .foundation .kids .kid {
+        border-radius: 50%;
+    }
+    .foundation .logo {
+        display: none;
+    }
+    .foundation .logor {
+        display: block;
+        margin: 10px 0;
+        width: auto;
+        height: 60px;
+    }
+    .foundation div nav {
+        width: 100%;
+    }
+    .foundation div nav p {
+        font-size: 16px;
+        width: 100%;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .foundation div nav button {
+        font-size: 16px;
+        width: 100px;
+        margin: 10px 0;
+    }
+    .foundation .circle {
+        width: 90%;
+        height: 300px;
+    }
+    .foundation .circle img {
+        width: 100%;
+        height: 100%;
+    }
+    .foundation .kids .fdot {
+        display: none;
+    }
 }
 /* CLIENTS */
 .clients {
@@ -343,6 +578,23 @@
     padding: 30px 0;
     display: flex;
     justify-content: space-evenly;
+}
+@media only screen and (max-width: 800px) {
+    .clients {
+        padding: 30px;
+    }
+    .clients h1 {
+        font-size: 25px;
+    }
+    .clients nav {
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+    .clients nav img {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
 }
 /* INVEST */
 .invest {
@@ -411,6 +663,50 @@
 .invest img {
     margin: auto;
 }
+.investImgR {
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .invest {
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 0;
+        height: fit-content;
+    }
+    .invest div:first-of-type {
+        width: 100%;
+        margin: 0;
+    }
+    .invest div h2 {
+        font-size: 25px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .invest div p {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .invest form {
+        width: 100%;
+    }
+    .invest form label input {
+        height: 40px;
+        width: 100%;
+    }
+    .invest form button {
+        width: 100px;
+        height: 35px;
+    }
+    .invest .investImg {
+        display: none;
+    }
+    .investImgR {
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+}
+/* NEWSLETTER */
 .letter {
     display: flex;
     flex-direction: column;
@@ -470,4 +766,36 @@
     right: 0;
     border-radius: 0 0 30px 0;
     opacity: 0.9;
+}
+@media only screen and (max-width: 800px) {
+    .letter {
+        margin: 20px 0;
+        transform: none;
+        height: 250px;
+        width: 98%;
+        margin: 30px auto;
+        border-radius: 30px;
+        font-size: 16px;
+    }
+    .letter::before {
+        background: url(./../assets/worldmap.png);
+        background-position: center;
+        background-size: 100% 100%;
+        border-radius: 30px;
+    }
+    .letter label {
+        width: 80%;
+    }
+    .letter input {
+        height: 35px;
+        width: 80%;
+    }
+    .letter button {
+        height: 35px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+    .letter img {
+        opacity: 0.7;
+    }
 }

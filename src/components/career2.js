@@ -1,8 +1,6 @@
 import React from 'react'
 import style from './../styles/career.module.css';
 import head from './../assets/career.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUpload } from '@fortawesome/free-solid-svg-icons'
 import dots from './../assets/dots.png'
 
 export default function Career2() {

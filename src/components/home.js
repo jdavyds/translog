@@ -36,7 +36,7 @@ export default function Home() {
         <section className={style.intro}>
             <img src={intro} alt="" className={style.introImg}/>
             <section>
-                <p>At TRANSLOG we provide Efficient Livelihood Improvement <br /> Technologies</p>
+                <p>At TRANSLOG we provide Efficient Livelihood Improvement Technologies</p>
                 <div>
                     <nav>
                         <img src={acct} alt="" />
@@ -55,9 +55,10 @@ export default function Home() {
         </section>
         <section className={style.about}>  
                 <div>
-                    <img src={about1} alt="" />
+                    <img src={about1} className={style.abnf} alt="" />
                     <nav>
                         <h3>About The Company</h3>
+                    <img src={about1} className={style.abnr} alt="" />
                         <p>TRANSLOG Energy is a fast-growing petroleum haulage service provider with expertise in facilitating large-scale transport services for products such as Aviation fuel (Jet-A1), Premium Motor Spirit (PMS), Automotive Gas Oil (AGO), as well as Dual-purpose/Household Kerosenes across Nigeria and the West African sub-region prospectively.</p>
                         <button>Read More</button>
                     </nav>
@@ -115,6 +116,7 @@ export default function Home() {
         <section className={style.foundation}>
             <h1>TRANSLOG FOUNDATION</h1>
             <span>A light in the tunnel</span>
+            <img src={logo} className={style.logor} alt="" />
             <div>
                 <div className={style.kids}>
                     <img src={foundation1} className={style.kid}  alt="" />
@@ -145,6 +147,7 @@ export default function Home() {
         <section className={style.invest}>
             <div>
                 <h2>INVEST WITH US</h2>
+                <img src={invest} alt="" className={style.investImgR} />
                 <p>We welcome valuable collaborative engagements with  substantial tangible benefits to the parties thereto. <br /> Deploy your truck under our supervision for effective management and enjoy stress-free Return-on-investment.you can schedule a pre-operational  inspection of your truck(s) for full assessment and commence documentation process with us at our own time. Our Partners constitute essential part of our business ecosystem and are fully represented in our value system. You too can have a taste of the pie ! Talk to our staff to schedule a meeting.</p>
                 <form action="" method="post">
                     <label htmlFor="">

@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import logo from './../assets/logo.png'
 import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
   const [sticky, setSticky] = useState(false)
@@ -36,14 +36,14 @@ export default function Header() {
             <NavLink to='/career'>CAREERS</NavLink>
         </nav>
         <div className='hamDiv'>
-                <FontAwesomeIcon icon={faBars}  onClick={handleShow}/> 
+                <FontAwesomeIcon icon={hamNav ? faTimes : faBars}  className='hambuger' onClick={handleShow}/> 
                 <nav className={hamNav ? 'show' : ''}>
                     <NavLink  to='/' onClick={handleShow}>HOME</NavLink>
                     <NavLink  to='/about' onClick={handleShow}>ABOUT</NavLink>
                     <NavLink  to='/service' onClick={handleShow}>SERVICE</NavLink>
                     <NavLink  to='/gallery' onClick={handleShow}>GALLERY</NavLink>
                     <NavLink  to='/faq' onClick={handleShow}>FAQ</NavLink>
-                    <NavLink  to='/blog' onClick={handleShow}>Blog</NavLink>
+                    <NavLink  to='/blog' onClick={handleShow}>BLOG</NavLink>
                     <NavLink  to='/foundation' onClick={handleShow}>FOUNDATION</NavLink>
                     <NavLink  to='/contact' onClick={handleShow}>CONTACT</NavLink>
                     <NavLink  to='/career' onClick={handleShow}>CAREERS</NavLink>

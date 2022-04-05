@@ -35,9 +35,10 @@ export default function About() {
         </section>
         <section className={style.about}>  
                 <div>
-                    <img src={about1} alt="" />
+                    <img src={about1} className={style.abnf} alt="" />
                     <nav>
                         <h3>About The Company</h3>
+                        <img src={about1} className={style.abnr} alt="" />
                         <p>TRANSLOG Energy is a fast-growing petroleum haulage service provider with expertise in facilitating large-scale transport services for products such as Aviation fuel (Jet-A1), Premium Motor Spirit (PMS), Automotive Gas Oil (AGO), as well as Dual-purpose/Household Kerosenes across Nigeria and the West African sub-region prospectively.</p>
                         <button>Read More</button>
                     </nav>
