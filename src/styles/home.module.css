@@ -81,14 +81,14 @@
         min-height: 250px;
         height: fit-content;
         padding: 20px 10px;
-        margin: -30px 0 50px;
+        margin: -30px 0 10px;
         display: flex;
         flex-direction: column;
         justify-content: unset;
         align-items: unset;
     }
     .intro section p {
-        font-size: 18px;
+        font-size: 16px;
         word-spacing: 0px;
         width: 100%;
         line-height: 1.5;
@@ -106,7 +106,7 @@
     .intro section div nav img {
         width: 50px;
         height: 50px;
-        margin: 20px 0;
+        margin: 10px 0;
     }
     .intro section div nav span {
         font-size: 16px;
@@ -405,7 +405,7 @@
 }
 /* FOUNDATION */
 .maps {
-    background: url(./../assets/worldmap.png);
+    background: white;
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 100%;
