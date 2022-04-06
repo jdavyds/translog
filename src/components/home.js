@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import style from './../styles/home.module.css';
-import intro from './../assets/intro.png';
 import acct from './../assets/clipboard 1.png';
 import capability from './../assets/capability 1.png';
 import excellent from './../assets/excellent 1.png';
