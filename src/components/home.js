@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import style from './../styles/home.module.css';
 import intro from './../assets/intro.png';
 import acct from './../assets/clipboard 1.png';
@@ -34,8 +35,14 @@ export default function Home() {
   return (
     <div>
         <section className={style.intro}>
-            <img src={intro} alt="" className={style.introImg}/>
-            <section>
+            <section className={style.sell}>
+                <h1>TRANSLOG</h1>
+                <h3>we go ahead of excellence</h3>
+                <span></span>
+                <p>Translog Energy Is A Fast Growing Petroleum Haulage Service Provider With Experience In Facilitating Large-Scale Transport Services </p>
+                <button><Link to='/about'>Read More</Link></button>
+            </section>
+            <section className={style.spec}>
                 <p>At TRANSLOG we provide Efficient Livelihood Improvement Technologies</p>
                 <div>
                     <nav>

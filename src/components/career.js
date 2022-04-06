@@ -40,7 +40,7 @@ export default function Career() {
               <label htmlFor="">
                 <span>Sex</span>
                 <select name="" >
-                  <option value="" selected='selected' disabled> </option>
+                  <option value="" selected disabled> </option>
                   <option value="Male">Male</option>
                   <option value="Female">Female</option>
                   <option value="Binary">Binary</option>
@@ -77,7 +77,7 @@ export default function Career() {
               <label htmlFor="">
                 <span>Highest Qualification Obtained</span>
                 <select>
-                  <option value='' selected='selected' disabled></option>
+                  <option value='' selected disabled></option>
                   <option value="Bsc">Bsc</option>
                   <option value="Masters">Masters</option>
                   <option value="Phd">Phd</option>
@@ -93,7 +93,7 @@ export default function Career() {
               <label htmlFor="">
                 <span>Marital Status</span>
                 <select>
-                  <option value="" selected='selected' disabled></option>
+                  <option value="" selected disabled></option>
                   <option value="Single">Single</option>
                   <option value="Married">Married</option>
                   <option value="Divorced">Divorced</option>
