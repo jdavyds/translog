@@ -6,8 +6,6 @@ import f1 from './../assets/foundation1.png';
 import f2 from './../assets/foundation2.png';
 import f3 from './../assets/foundation3.png';
 import f4 from './../assets/foundation4.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import dots from './../assets/dots.png'
 
 export default function Foundation() {
@@ -26,7 +24,7 @@ export default function Foundation() {
         <img src={f1} alt="" className={style.ff}/>
       </section>
       <section className={style.gpost}>
-        <h2>How we are making a difference</h2>
+        <h2>How We Are Making A Difference</h2>
         <div>
           <Link to='/commited-to-promoting-good-corporate-citizenship-across-the-globe'>
             <img src={f2} alt="" />
@@ -44,14 +42,6 @@ export default function Foundation() {
             <p>As we celebrate the 2021 World Book Day, it is critical to take the time to read on your own or with your children. It is a time to celebrate the importance of reading.</p>
           </Link>
         </div>
-      </section>
-      <section className={style.page}>
-        <button><FontAwesomeIcon icon={ faChevronLeft } /></button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button><FontAwesomeIcon icon={ faChevronRight } /></button>
       </section>
     </div>
   )

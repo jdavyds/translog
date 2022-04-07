@@ -36,6 +36,9 @@
     line-height: 1.5;
     color: #5c5656;
 }
+.blog div a i {
+    color: #db1013;
+}
 .blog aside {
     width: 35%;
     padding: 20px;
@@ -45,7 +48,12 @@
 .blog aside a {
     text-decoration: none;
     display: flex;
+    align-items: center;
     margin: 20px 0;
+}
+.blog aside img {
+    width: 150px;
+    height: 150px;
 }
 .blog aside h4 {
     font-size: 25px;
@@ -63,8 +71,9 @@
         height: 200px;
     }
     .headbg img {
-        height: 100%;
         width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     .blog {
         display: flex;
@@ -87,6 +96,7 @@
     .blog div a img {
         width: 100%;
         height: 150px;
+        object-fit: cover;
     }
     .blog div a h4 {
         padding: 0;
@@ -102,6 +112,11 @@
         padding: 0;
         background: inherit;
         height: fit-content;
+    }
+    .blog aside img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
     }
     .blog aside h4 {
         font-size: 20px;

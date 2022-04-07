@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import logo from './../assets/logo.png'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
@@ -21,9 +21,9 @@ export default function Header() {
     }
   return (
     <header className={sticky ? 'sticky' : ''}>
-        <nav className='logo'>
+        <Link to='/' className='logo'>
             <img src={logo} alt="" />
-        </nav>
+        </Link>
         <nav className='navs'>
             <NavLink to='/'>HOME</NavLink>
             <NavLink to='/about'>ABOUT</NavLink>
@@ -32,8 +32,8 @@ export default function Header() {
             <NavLink to='/faq'>FAQ</NavLink>
             <NavLink to='/blog'>BLOG</NavLink>
             <NavLink to='/foundation'>FOUNDATION</NavLink>
-            <NavLink to='/contact'>CONTACT</NavLink>
             <NavLink to='/career'>CAREERS</NavLink>
+            <NavLink to='/contact'>CONTACT</NavLink>
         </nav>
         <div className='hamDiv'>
                 <FontAwesomeIcon icon={hamNav ? faTimes : faBars}  className='hambuger' onClick={handleShow}/> 
@@ -45,8 +45,8 @@ export default function Header() {
                     <NavLink  to='/faq' onClick={handleShow}>FAQ</NavLink>
                     <NavLink  to='/blog' onClick={handleShow}>BLOG</NavLink>
                     <NavLink  to='/foundation' onClick={handleShow}>FOUNDATION</NavLink>
-                    <NavLink  to='/contact' onClick={handleShow}>CONTACT</NavLink>
                     <NavLink  to='/career' onClick={handleShow}>CAREERS</NavLink>
+                    <NavLink  to='/contact' onClick={handleShow}>CONTACT</NavLink>
                 </nav>
             </div>
     </header>

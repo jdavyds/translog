@@ -69,7 +69,7 @@ footer main nav a:hover {
     color: #C91619;
 }
 footer main div img {
-    width: 100px;
+    width: 150px;
     height: 100px;
     margin: 20px 0;
 }
@@ -154,6 +154,7 @@ footer section {
     }
     .show a {
       margin: 10px;
+      width: 100%;
       text-decoration: none;
       color: #353434;
     }

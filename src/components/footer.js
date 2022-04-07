@@ -29,7 +29,7 @@ export default function Footer() {
           <p><FontAwesomeIcon className='icons' icon={faFacebookF} /> <FontAwesomeIcon className='icons' icon={faWhatsapp} /> <FontAwesomeIcon className='icons' icon={faInstagram} /></p>
         </div>
       </main>
-      <section>© 2022. translog energy Limited. All rights reserved.</section>
+      <section>© 2022. Translog Energy Limited. All rights reserved.</section>
     </footer>
   )
 }

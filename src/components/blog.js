@@ -20,13 +20,13 @@ export default function Blog() {
                     <img src={blog1} alt="" />
                     <h4>Worries Over Potential $150 Billion Losses By African Oil Producers</h4>
                     <p>
-                    Coming on the backdrop of the Cop26, the African Energy Chamber on the sideline of the Glasgow event, said capital expenditure on the continent’s sector hovers at about $33 billion rebalancings slightly above what it was about a year ago.</p><p>Chairman, African Energy Chamber NJ Ayuk, who referenced the 2022 outlook of the sector noted that the future looks optimistic but insisted that the continent must take advantage of every positive trend and not allow existing oil and gas resources to waste.</p>
+                    Coming on the backdrop of the Cop26, the African Energy Chamber on the sideline of the Glasgow event, said capital expenditure on the continent’s sector hovers at about $33 billion rebalancings slightly above what it was about a year ago.</p><p>Chairman, African Energy Chamber NJ Ayuk, who referenced the 2022 outlook of the sector noted that the future looks optimistic but insisted that the continent must take advantage of every positive trend and not allow existing oil and gas resources to waste. <i>Read More... {'>>'} </i> </p>
                 </Link>
                 <Link to='/Worries-over-potential-$150-billion-losses-by-African-oil-producers'>
                     <img src={blog2} alt="" />
                     <h4>How Nigeria Can Tap $53trillion Global ESG Fund For Oil Projects</h4>
                     <p>
-                    Projected to hit $53 trillion by 2025, the global Environmental Social and Governance (ESG) assets can provide leeway for most oil and gas projects in Nigeria, especially the private and public sector, to address inherent hindrances.</p><p>Across the world, investors are now shifting attention to ESG, applying the non-financial factors as part of the key analysis process to identify material risks and growth opportunities.At a time when funding for fossil fuel investments is being withdrawn, most analysts see priority for ESG as an escape path to financing projects in the sector.</p>
+                    Projected to hit $53 trillion by 2025, the global Environmental Social and Governance (ESG) assets can provide leeway for most oil and gas projects in Nigeria, especially the private and public sector, to address inherent hindrances.</p><p>Across the world, investors are now shifting attention to ESG, applying the non-financial factors as part of the key analysis process to identify material risks and growth opportunities.At a time when funding for fossil fuel investments is being withdrawn, most analysts see priority for ESG as an escape path to financing projects in the sector. <i>Read More... {'>>'} </i> </p>
                 </Link>
             </div>
             <aside>
