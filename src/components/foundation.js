@@ -17,9 +17,9 @@ export default function Foundation() {
       <section className={style.fpost}>
       <img src={dots} alt=""  className={style.dot}/>
         <Link to='/commited-to-promoting-good-corporate-citizenship-across-the-globe'>
-          <h3>At the heart of Sahara’s business objectives, lies an unwavering commitment to promoting good corporate citizenship across the globe.</h3>
+          <h3>At the heart of Translog’s business objectives, lies an unwavering commitment to promoting good corporate citizenship across the globe.</h3>
         <img src={f1} alt="" className={style.fr}/>
-          <p>This is achieved through Sahara Foundation – the vehicle for the Group’s Personal and Corporate Social Responsibility (PCSR initiatives. With a vision to promote activities targeting sustained (impact driven) societal wellbeing and touching lives through transformative partnerships, Sahara Foundation recently realigned its focus areas to 2 key pillars for all interventions going forward. This was borne out of the necessity for the Foundation to take ownership of a particular space and align with Group’s vision.</p>
+          <p>This is achieved through Translog Foundation – the vehicle for the Group’s Personal and Corporate Social Responsibility (PCSR initiatives. With a vision to promote activities targeting sustained (impact driven) societal wellbeing and touching lives through transformative partnerships, Translog Foundation recently realigned its focus areas to 2 key pillars for all interventions going forward. This was borne out of the necessity for the Foundation to take ownership of a particular space and align with Group’s vision.</p>
         </Link>
         <img src={f1} alt="" className={style.ff}/>
       </section>
@@ -34,7 +34,7 @@ export default function Foundation() {
           <Link to='/commited-to-promoting-good-corporate-citizenship-across-the-globe'>
             <img src={f3} alt="" />
             <h3>Translog FOUNDATION UNVEILS STRP TO COMBAT CLIMATE CHANGE, BOOST EMPLOYMENT</h3>
-            <p>Sahara Foundation, the corporate citizenship vehicle of energy conglomerate, Sahara Group, has launched its inaugural Sahara Regenerator Technical Program (STRP) to promote capacity building among youths in Edo, Lagos and Rivers.</p>
+            <p>Translog Foundation, the corporate citizenship vehicle of energy conglomerate, Translog Group, has launched its inaugural Translog Regenerator Technical Program (STRP) to promote capacity building among youths in Edo, Lagos and Rivers.</p>
           </Link>
           <Link to='/commited-to-promoting-good-corporate-citizenship-across-the-globe'>
             <img src={f4} alt="" />

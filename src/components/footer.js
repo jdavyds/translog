@@ -16,8 +16,8 @@ export default function Footer() {
         <nav>
             <b>Links</b>
             <Link to='/'>HOME</Link>
-            <Link to='/about'>ABOUT</Link>
-            <Link to='/services'>SERVICE</Link>
+            <Link to='/about-us'>ABOUT US</Link>
+            <Link to='/services'>SERVICES</Link>
             <Link to='/gallery'>GALLERY</Link>
             <Link to='/faq'>FAQ</Link>
             <Link to='/blog'>BLOG</Link>

@@ -172,7 +172,7 @@ export default function Home() {
                         <span>Message</span>
                         <input type="text" />
                     </label>
-                    <button type="submit">Schedule</button>
+                    <button type="submit">Schedule A Meeting</button>
                 </form>
             </div>
             <div className={style.investImg}>

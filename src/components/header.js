@@ -26,27 +26,29 @@ export default function Header() {
         </Link>
         <nav className='navs'>
             <NavLink to='/'>HOME</NavLink>
-            <NavLink to='/about'>ABOUT</NavLink>
-            <NavLink to='/service'>SERVICE</NavLink>
+            <NavLink to='/about-us'>ABOUT US</NavLink>
+            <NavLink to='/services'>SERVICES</NavLink>
             <NavLink to='/gallery'>GALLERY</NavLink>
             <NavLink to='/faq'>FAQ</NavLink>
             <NavLink to='/blog'>BLOG</NavLink>
             <NavLink to='/foundation'>FOUNDATION</NavLink>
-            <NavLink to='/career'>CAREERS</NavLink>
+            <NavLink to='/career'>CAREER</NavLink>
             <NavLink to='/contact'>CONTACT</NavLink>
+            <NavLink to='/invest-with-us'>INVEST WITH US</NavLink>
         </nav>
         <div className='hamDiv'>
                 <FontAwesomeIcon icon={hamNav ? faTimes : faBars}  className='hambuger' onClick={handleShow}/> 
                 <nav className={hamNav ? 'show' : ''}>
                     <NavLink  to='/' onClick={handleShow}>HOME</NavLink>
-                    <NavLink  to='/about' onClick={handleShow}>ABOUT</NavLink>
-                    <NavLink  to='/service' onClick={handleShow}>SERVICE</NavLink>
+                    <NavLink  to='/about-us' onClick={handleShow}>ABOUT US</NavLink>
+                    <NavLink  to='/services' onClick={handleShow}>SERVICES</NavLink>
                     <NavLink  to='/gallery' onClick={handleShow}>GALLERY</NavLink>
                     <NavLink  to='/faq' onClick={handleShow}>FAQ</NavLink>
                     <NavLink  to='/blog' onClick={handleShow}>BLOG</NavLink>
                     <NavLink  to='/foundation' onClick={handleShow}>FOUNDATION</NavLink>
-                    <NavLink  to='/career' onClick={handleShow}>CAREERS</NavLink>
+                    <NavLink  to='/career' onClick={handleShow}>CAREER</NavLink>
                     <NavLink  to='/contact' onClick={handleShow}>CONTACT</NavLink>
+                    <NavLink to='/invest-with-us'>INVEST WITH US</NavLink>
                 </nav>
             </div>
     </header>

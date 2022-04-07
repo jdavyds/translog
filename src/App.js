@@ -14,14 +14,15 @@ import Career from './components/career';
 import Worries from './components/worries';
 import Committed from './components/committed';
 import Career2 from './components/career2';
+import Invest from './components/invest';
 function App() {
   return (
     <div className="App">
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/service" element={<Services/>} />
+        <Route path="/about-us" element={<About/>} />
+        <Route path="/services" element={<Services/>} />
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/faq" element={<Faq/>} />
@@ -31,6 +32,7 @@ function App() {
         <Route path="/Worries-over-potential-$150-billion-losses-by-African-oil-producers" element={<Worries/>} />
         <Route path="/commited-to-promoting-good-corporate-citizenship-across-the-globe" element={<Committed/>} />
         <Route path="/career-history" element={<Career2/>} />
+        <Route path="/invest-with-us" element={<Invest/>} />
       </Routes>
       <Footer/>
     </div>
