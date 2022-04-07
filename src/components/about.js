@@ -123,7 +123,7 @@ export default function About() {
                 <nav>
                     <img src={team1} alt="" />
                     <h4>Jude Osalawu <br />CHIEF EXECUTIVE OFFICER</h4>
-                    <p>Jude Osaluwe is a serial Entrepreneur with over 25 years work experience across industries including manufacturing, hospitality, Fast Moving Consumer Goods (FMCG), among others. He worked ...</p>
+                    <p>Jude Osaluwe is a serial Entrepreneur with over 25 years work experience across industries including manufacturing, hospitality, Fast Moving Consumer Goods (FMCG), among others. He has managed several corporate entities in his entrepreneurial quest including a key player in the Nigeria Oil and Gas downstream sector from where he went on to pioneer Translog Energy Limited with his team...</p>
                     <span>
                         <img src={facebook} alt="" />
                         <img src={linkedin} alt="" />
