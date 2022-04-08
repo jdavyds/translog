@@ -26,7 +26,8 @@ export default function Footer() {
           <p><FontAwesomeIcon className='icons' icon={faLocationDot} /> <span> Benin-Agbor Expressway, By Precious Wealth Petrol Station, Ekhor-Niro, Benin City, Edo State.</span> </p>
           <p><FontAwesomeIcon className='icons' icon={faPhone} /> <span>0915 207 5211, 0802 892 2836 </span></p>
           <p> <span><FontAwesomeIcon className='icons' icon={faEnvelope} />info@translogenergy.com </span></p>
-          <p><FontAwesomeIcon className='icons' icon={faFacebookF} /> <FontAwesomeIcon className='icons' icon={faWhatsapp} /> <FontAwesomeIcon className='icons' icon={faInstagram} /></p>
+          <p>
+            <a href="https://www.facebook.com/Translogenergy"><FontAwesomeIcon className='icons' icon={faFacebookF} /></a> <a href="https://wa.me/message/K7EC3GIRA32PE1"><FontAwesomeIcon className='icons' icon={faWhatsapp} /></a> <a href="https://www.instagram.com/translogenergy/"><FontAwesomeIcon className='icons' icon={faInstagram} /></a></p>
         </div>
       </main>
       <section>© 2022. Translog Energy Limited. All rights reserved.</section>
