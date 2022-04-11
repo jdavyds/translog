@@ -12,6 +12,7 @@
 }
 .gallery img {
     width: 31%;
+    height: 360px;
     margin: 20px 0;
 }
 .page {
@@ -60,6 +61,7 @@
     }
     .gallery img {
         width: 100%;
+        height: calc(100vw - 40px);
         margin: 20px 0;
     }
     .page button {

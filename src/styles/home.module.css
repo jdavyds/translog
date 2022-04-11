@@ -535,10 +535,11 @@
     right: 5px;
     margin-top: -30px;
 }
-.foundation .logo {
-    width: 200px;
-    height: 70px;
-    margin: 0 auto;
+.foundation .logor {
+    display: block;
+    margin: 20px auto;
+    width: auto;
+    height: 100px;
 }
 .foundation div nav {
     width: 50%;
@@ -553,7 +554,17 @@
     color: gray;
 }
 .foundation div nav button {
-    display: none;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    outline: none;
+    border: none;
+    background: #db1013;
+}
+.foundation div nav button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
 .foundation .circle {
     width: 25%;
@@ -561,9 +572,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.logor {
-    display: none;
 }
 @media only screen and (max-width: 800px) {
     .maps {
@@ -578,10 +586,8 @@
         padding: 20px;
         line-height: 1.5em;
     }
-    .foundation h1 {
-        text-align: center;
-        font-size: 24px;
-        margin: 20px 0 10px;
+    .foundation span, .foundation h1 {
+        display: none;
     }
     .foundation div {
         width: 100%;

@@ -120,8 +120,8 @@ export default function Home() {
         </section>
         <section className={style.maps}>
         <section className={style.foundation}>
-            <h1>TRANSLOG FOUNDATION</h1>
-            <span>A light in the tunnel</span>
+            {/* <h1>TRANSLOG FOUNDATION</h1> */}
+            {/* <span>A light in the tunnel</span> */}
             <img src={logo} className={style.logor} alt="" />
             <div>
                 <div className={style.kids}>
@@ -130,10 +130,10 @@ export default function Home() {
                     <img src={foundationRing} className={style.ring} alt="" />
                 </div>
                 <nav>
-                    <img src={logo} className={style.logo} alt="" />
+                    {/* <img src={logo} className={style.logo} alt="" /> */}
                     <p>At the heart of translog foundation objectives, lies an unwavering commitment to promoting good corporate citizenship across the globe.</p> 
-                    <p>This is achieved through Sahara Foundation – the vehicle for the Group’s Personal and Corporate Social Responsibility (PCSR initiatives. The activities of Sahara Foundation are aimed at empowering the communities where we operate in a sustainable, transparent and efficient manner.</p>
-                    <button>Learn More</button>
+                    <p>This is achieved through Translog Foundation – the vehicle for the foundation’s Personal and Corporate Social Responsibility (PCSR initiatives. The activities of Translog Foundation are aimed at empowering the communities where we operate in a sustainable, transparent and efficient manner.</p>
+                    <button><Link to='/foundation'>Learn More </Link></button>
                 </nav>
                 <div className={style.circle}>
                     <img src={foundation2}  alt={style.circle} />
@@ -154,7 +154,7 @@ export default function Home() {
             <div>
                 <h2>INVEST WITH US</h2>
                 <img src={invest} alt="" className={style.investImgR} />
-                <p>We welcome valuable collaborative engagements with  substantial tangible benefits to the parties thereto. <br /> Deploy your truck under our supervision for effective management and enjoy stress-free Return-on-investment.you can schedule a pre-operational  inspection of your truck(s) for full assessment and commence documentation process with us at our own time. Our Partners constitute essential part of our business ecosystem and are fully represented in our value system. You too can have a taste of the pie ! Talk to our staff to schedule a meeting.</p>
+                <p>We welcome valuable collaborative engagements with  substantial tangible benefits to the parties thereto. <br /> Deploy your truck under our supervision for effective management and enjoy stress-free Return-on-investment.you can schedule a pre-operational  inspection of your truck(s) for full assessment and commence documentation process with us at your own time. Our Partners constitute essential part of our business ecosystem and are fully represented in our value system. You too can have a taste of the pie ! Talk to our staff to schedule a meeting.</p>
                 <form action="" method="post">
                     <label htmlFor="">
                         <span>Name</span>

@@ -10,6 +10,18 @@ import g6 from './../assets/gallery6.png'
 import g7 from './../assets/gallery7.png'
 import g8 from './../assets/gallery8.png'
 import g9 from './../assets/gallery9.png'
+import g10 from './../assets/gallery10.png'
+import g11 from './../assets/gallery11.png'
+import g12 from './../assets/gallery12.png'
+import g13 from './../assets/gallery13.png'
+import g14 from './../assets/gallery14.png'
+import g15 from './../assets/gallery15.png'
+import g16 from './../assets/gallery16.png'
+import g17 from './../assets/gallery17.png'
+import g18 from './../assets/gallery18.png'
+import g19 from './../assets/gallery19.png'
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
@@ -87,18 +99,18 @@ export default function Gallery() {
             <img src={g9} alt="" />
         </section>
         <section className={two ? style.gallery : style.none}>
-            <img src={g9} alt="" />
-            <img src={g8} alt="" />
-            <img src={g7} alt="" />
-            <img src={g6} alt="" />
-            <img src={g1} alt="" />
-            <img src={g2} alt="" />
-            <img src={g3} alt="" />
-            <img src={g4} alt="" />
-            <img src={g5} alt="" />
+            <img src={g10} alt="" />
+            <img src={g11} alt="" />
+            <img src={g12} alt="" />
+            <img src={g13} alt="" />
+            <img src={g14} alt="" />
+            <img src={g15} alt="" />
+            <img src={g16} alt="" />
+            <img src={g17} alt="" />
+            <img src={g18} alt="" />
         </section>
         <section className={three ? style.gallery : style.none}>
-            <img src={g5} alt="" />
+            <img src={g19} alt="" />
             <img src={g4} alt="" />
             <img src={g3} alt="" />
             <img src={g1} alt="" />
